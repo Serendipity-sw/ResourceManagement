@@ -84,7 +84,7 @@ body>.loginArea>.enterBox>.content>.rows>.title{
 body>.loginArea>.enterBox>.content>.rows>input{border: 1px solid #bbbbbb;background-color: #ffffff;border-radius: 6px;overflow: hidden;height: 45px;font-size: 18px;padding: 0 0 0 11px;box-sizing: border-box;width: 100%;margin-top: 2px;}
 body>.loginArea>.enterBox>.content>.rows>img{position: absolute;bottom: 10px;right: 9px;cursor: pointer;overflow: hidden;box-sizing: border-box;padding: 0;margin: 0;}
 body>.loginArea>.enterBox>.content>.bottom{overflow: hidden;padding: 0;width: 71%;margin: 17px auto;}
-body>.loginArea>.enterBox>.content>.bottom>.learnUserName{display: block;height: 18px;width: 18px;padding: 0;margin: 0;overflow: hidden;float: left;margin-top: 14px;}
+body>.loginArea>.enterBox>.content>.bottom>.learnUserName{display: block;height: 18px;width: 18px;padding: 0;margin: 14px 0 0 0 ;overflow: hidden;float: left;}
 body>.loginArea>.enterBox>.content>.bottom>.title{font-size: 15px;display: block;float: left;overflow: hidden;padding: 0;box-sizing: border-box;margin: 11px 0 0 4px;color: #5b646b;}
 body>.loginArea>.enterBox>.content>.bottom>.loginBtn{float: right;display: block;background-color: #428bca;color: white;font-size: 22px;letter-spacing: 7px;padding: 7px 21px 7px 31px;border-radius: 7px;}
 
