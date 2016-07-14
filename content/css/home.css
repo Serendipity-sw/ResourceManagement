@@ -1,12 +1,23 @@
 /*头部区域*/
 body>.headArea{
-overflow: hidden;
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-height: 68px;
-background-color: #405a92;
-color: white;
+
+overflow: hidden;
+
+padding: 0;
+
+margin: 0;
+
+box-sizing: border-box;
+
+height: 68px;
+
+background-color: #405a92;
+
+color: white;
+
+z-index: 2;
+
+position: relative;
 }
 
 /*名称系统*/
@@ -117,14 +128,22 @@ body>.headArea>.messageArea>.help{
 
 /*天气区域*/
 body>.headArea>.weatherArea{
-float: left;
-overflow: hidden;
-padding: 0 41px 0 29px;
-margin: 17px 15px 0 8px;
-background-color: #2c3c5f;
-height: 38px;
-border-radius: 39px;
-box-sizing: border-box;
+
+    float: left;
+
+    overflow: hidden;
+
+    padding: 0 41px 0 29px;
+
+    margin: 17px 15px 0 8px;
+
+    background-color: #2c3c5f;
+
+    height: 38px;
+
+    border-radius: 39px;
+
+    box-sizing: border-box;
 }
 body>.headArea>.weatherArea>.date{
 
@@ -209,51 +228,83 @@ body>.headArea>.weatherArea>.weatherState{
 /*天气区域*/
 
 body>.headArea>.right{
-overflow: hidden;
-float: right;
-box-sizing: border-box;
-padding: 0;
-margin: 0 21px 0 0;
-height: 68px;
+
+    overflow: hidden;
+
+    float: right;
+
+    box-sizing: border-box;
+
+    padding: 0;
+
+    margin: 0 21px 0 0;
+
+    height: 68px;
 }
 
 /*用户区域*/
 body>.headArea>.right>.userArea{overflow: hidden;margin: 0;padding: 0;box-sizing: border-box;height: 68px;float: left;}
 body>.headArea>.right>.userArea>.userPhoto{
-width: 43px;
-margin: 12px 0;
-float: left;
+
+    width: 43px;
+
+    margin: 12px 0;
+
+    float: left;
 }
 body>.headArea>.right>.userArea>.userName{
-height: 68px;
-line-height: 68px;
-margin-left: 15px;
-font-size: 14px;
-display: block;
-padding-right: 13px;
-background: url(../images/downtriangle.png) no-repeat;
-float: left;
-background-position: 100%;
-cursor: pointer;
+
+    height: 68px;
+
+    line-height: 68px;
+
+    margin-left: 15px;
+
+    font-size: 14px;
+
+    display: block;
+
+    padding-right: 13px;
+
+    background: url(../images/downtriangle.png) no-repeat;
+
+    float: left;
+
+    background-position: 100%;
+
+    cursor: pointer;
 }
 /*用户区域*/
 
 /*设置区域*/
 body>.headArea>.right>.settingArea{float: left;overflow: hidden;padding: 0;box-sizing: border-box;margin: 0 0 0 30px;}
 body>.headArea>.right>.settingArea>.setting{
-height: 68px;
-line-height: 68px;
-display: block;
-margin: 0;
-padding: 0;
-overflow: hidden;
-box-sizing: border-box;
-padding-left: 23px;
-background: url(../images/settings.png) no-repeat;
-background-position: 0 50%;
-letter-spacing: 1px;
-cursor: pointer;
-font-size: 14px;
+
+    height: 68px;
+
+    line-height: 68px;
+
+    display: block;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+
+    padding-left: 23px;
+
+    background: url(../images/settings.png) no-repeat;
+
+    background-position: 0 50%;
+
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+    font-size: 14px;
 }
 /*设置区域*/
 
@@ -264,38 +315,190 @@ body>.headArea>.right>.settingArea>.setting{
 /*左部菜单区域*/
 body>.leftArea{
 
-}
+overflow: hidden;
 
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+padding-top: 68px;
+
+background: -moz-linear-gradient(top, #355290 0%, #bdc3ca 100%);
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#355290), color-stop(100%,#bdc3ca));
+
+background: -webkit-linear-gradient(top, #355290 0%,#bdc3ca 100%);
+
+background: -o-linear-gradient(top, #355290 0%,#bdc3ca 100%);
+
+background: -ms-linear-gradient(top, #355290 0%,#bdc3ca 100%);
+
+background: linear-gradient(to bottom, #355290 0%,#bdc3ca 100%);
+
+box-sizing: border-box;
+
+bottom: 0;
+
+width: 230px;
+
+z-index: 1;
+
+padding-bottom: 12px;
+}
+body>.leftArea>div>div>*{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 8px;
+}
+body>.leftArea>div>div>*>.mark{
+
+    position: absolute;
+
+    top: 0;
+
+    bottom: 0;
+
+    background-color: #324969;
+
+    width: 100%;
+
+    opacity: 0.5;
+
+    border-radius: 8px;
+}
 /*搜索区域*/
-body>.leftArea>.searchArea{
+body>.leftArea>div>div>.searchArea{
 
 }
-body>.leftArea>.searchArea>.searchIcon{
+body>.leftArea>div>div>.searchArea>.searchIcon{
 
+    position: relative;
+
+    margin: 14px 0 0 14px;
+
+    display: block;
+
+    box-sizing: border-box;
+
+    float: left;
+
+    width: 19px;
+
+    height: 14px;
 }
-body>.leftArea>.searchArea>.search{
+body>.leftArea>div>div>.searchArea>.search{
 
+    display: block;
+
+    float: left;
+
+    box-sizing: border-box;
+
+    padding: 0 15px;
+
+    margin: 0;
+
+    position: relative;
+
+    width: 166px;
+
+    height: 38px;
+
+    background-color: transparent;
+
+    border: 0;
+
+    color: white;
 }
 /*搜索区域*/
 
 /*菜单区域*/
-body>.leftArea>.rows{
+body>.leftArea>div>div>.rows{
 
+margin-top: 12px;
+
+padding: 9px 0;
 }
-body>.leftArea>.title{
+body>.leftArea>div>div>.rows>.title{
 
+position: relative;
+
+overflow: hidden;
+
+padding: 4px 10px;
+
+margin: 9px 0 0 9px;
+
+box-sizing: border-box;
+
+background-color: #334866;
+
+border-radius: 14px;
+
+color: #dce0e5;
+
+cursor: default;
 }
-body>.leftArea>.column{
+body>.leftArea>div>div>.rows>.column{
 
+position: relative;
+
+width: 90%;
+
+margin: 12px auto 0 auto;
+
+overflow: hidden;
 }
-body>.leftArea>.column>.title{
+body>.leftArea>div>div>.rows> :nth-child(n+4){
 
+margin-top: 7px;
 }
-body>.leftArea>.column>.contentArea{
+body>.leftArea>div>div>.rows>.column>.title{
 
+background: url(../images/mail.png) no-repeat 0;
+
+padding-left: 28px;
+
+display: block;
+
+margin-left: 7px;
+
+color: #dce0e5;
+
+background-size: 16px;
+
+cursor: pointer;
 }
-body>.leftArea>.column>.contentArea>.content{
+body>.leftArea>div>div>.rows>.column>.arow{
 
+margin: 2px 0px 0 49px;
+
+background-size: 100% 100%;
+
+width: 11px;
+
+height: 3px;
+
+background: url(../images/arow.png) no-repeat;
+}
+body>.leftArea>div>div>.rows>.column>.contentArea{margin: 0px 0px 0 34px;background-size: 100% 100%;padding: 4px 17px 5px 17px;background-color: #364a6e;border-radius: 6px;}
+body>.leftArea>div>div>.rows>.column>.contentArea>.content{
+
+color: #dce0e5;
+
+cursor: pointer;
+
+display: block;
+
+padding: 0;
+
+margin: 1px 0;
 }
 /*菜单区域*/
 
@@ -307,26 +510,107 @@ body>.leftArea>.column>.contentArea>.content{
 /*右部区域*/
 body>.rightArea{
 
+position: absolute;
+
+top: 0;
+
+bottom: 0;
+
+padding: 68px 0 0 230px;
+
+width: 100%;
 }
 
 /*头部定位区域*/
 body>.rightArea>.head{
-
+height: 36px;
+overflow: hidden;
+box-sizing: border-box;
+padding: 0 0 0 36px;
+margin: 0;
+background: url(../images/targeting.jpg) no-repeat;
+background-size: 36px 36px;
+background-color: whitesmoke;
+z-index: 2;
+position: relative;
 }
 body>.rightArea>.head>.title{
 
+box-sizing: border-box;
+
+overflow: hidden;
+
+display: block;
+
+height: 36px;
+
+float: left;
+
+line-height: 36px;
+
+font-size: 13px;
+
+color: #666666;
+
+cursor: default;
 }
 body>.rightArea>.head>.locationArea{
 
+float: left;
+
+display: block;
+
+overflow: hidden;
+
+box-sizing: border-box;
+
+margin: 8px 5px;
+
+background-color: white;
 }
 body>.rightArea>.head>.locationArea>.location{
 
+color: #666666;
+
+font-size: 13px;
+
+display: block;
+
+float: left;
+
+overflow: hidden;
+
+box-sizing: border-box;
+
+padding: 0 6px 0 10px;
+
+background: url(../images/greytriangle.png) no-repeat;
+
+background-position: 0 50%;
+
+margin-left: 7px;
+
+cursor: pointer;
 }
 /*头部定位区域*/
 
 /*内容区域*/
 body>.rightArea>.content{
-
+position: absolute;
+top: 0;
+left: 0;
+padding: 104px 0 0 264px;
+bottom: 0;
+width: 100%;
+background-color: whitesmoke;
+}
+body>.rightArea>.content>iframe{
+overflow: hidden;
+display: block;
+width: 100%;
+height: 100%;
+box-sizing: border-box;
+border: 0;
 }
 /*内容区域*/
 

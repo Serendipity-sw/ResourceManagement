@@ -31,3 +31,9 @@ a {
 }
 a:visited {    text-decoration: none;
 }
+.mCSB_container{
+    margin: 0 !important;
+}
+.mCSB_scrollTools{
+    width: 0 !important;
+}
