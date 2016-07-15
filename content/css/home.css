@@ -536,11 +536,25 @@ body>.leftArea>div>div>.rows> :nth-child(n+4){
 
     margin-top: 7px;
 }
+
+body>.leftArea>div>div>.rows>.column>.title:hover:after{
+    border-top: 8px solid transparent;
+    border-left: 8px solid #ffffff;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    top: 3px;
+    left: -1px;
+    content: "";
+    display: inline-block;
+}
+body>.leftArea>div>div>.rows>.column>.title:hover{
+    background-color: #667ba5;
+}
 body>.leftArea>div>div>.rows>.column>.title{
 
     background: url(../images/mail.png) no-repeat 0;
 
-    padding: 0 49px;
+    padding: 1px 49px;
 
     display: block;
 

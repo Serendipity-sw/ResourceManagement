@@ -47,3 +47,12 @@ $(".leftArea .column>.title").click(function(){
     var showArea=$(this).nextAll();
     showArea.slideToggle("slow");
 });
+
+/**
+ * 左侧菜单主标头点击事件
+ * 创建人:邵炜
+ * 创建时间:2016年7月15日16:24:26
+ */
+$(document).on("click",".leftArea .rows>.title",function(){
+    $(this).nextAll().slideToggle("slow");
+});
