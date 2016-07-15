@@ -292,6 +292,7 @@ overflow: hidden;
 right: 87px;
 
 border-radius: 12px;
+    display: none;
 }
 body>.headArea>.right>.userAreaBox>.head{
 

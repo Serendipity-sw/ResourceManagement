@@ -37,3 +37,13 @@ $(".outBtn").click(function(){
 $(":not(.userAreaBox):not(.userName)").click(function(){
     $(".userAreaBox").hide();
 });
+
+/**
+ * 左侧菜单点击展示隐藏事件
+ * 创建人:邵炜
+ * 创建时间:2016年7月15日14:12:19
+ */
+$(".leftArea .column>.title").click(function(){
+    var showArea=$(this).nextAll();
+    showArea.slideToggle("slow");
+});
