@@ -1,21 +1,21 @@
 /*头部区域*/
 body>.headArea{
 
-padding: 0;
+    padding: 0;
 
-margin: 0;
+    margin: 0;
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-height: 68px;
+    height: 68px;
 
-background-color: #405a92;
+    background-color: #405a92;
 
-color: white;
+    color: white;
 
-z-index: 3;
+    z-index: 3;
 
-position: relative;
+    position: relative;
 }
 
 /*名称系统*/
@@ -277,68 +277,68 @@ body>.headArea>.right>.userArea>.userName{
 /*用户头像点击框*/
 body>.headArea>.right>.userAreaBox{
 
-position: absolute;
+    position: absolute;
 
-z-index: 3;
+    z-index: 3;
 
-top: 73px;
+    top: 73px;
 
-width: 223px;
+    width: 223px;
 
-background-color: white;
+    background-color: white;
 
-overflow: hidden;
+    overflow: hidden;
 
-right: 87px;
+    right: 87px;
 
-border-radius: 12px;
+    border-radius: 12px;
     display: none;
 }
 body>.headArea>.right>.userAreaBox>.head{
 
-background-color: #405a92;
+    background-color: #405a92;
 
-overflow: hidden;
+    overflow: hidden;
 }
 body>.headArea>.right>.userAreaBox>.head>.userPhoto{
 
-display: block;
+    display: block;
 
-width: 43px;
+    width: 43px;
 
-height: 43px;
+    height: 43px;
 
-margin: 17px auto 0 auto;
+    margin: 17px auto 0 auto;
 
-overflow: hidden;
+    overflow: hidden;
 }
 body>.headArea>.right>.userAreaBox>.head>.userName{
 
-display: block;
+    display: block;
 
-margin: 16px 0;
+    margin: 16px 0;
 
-text-align: center;
+    text-align: center;
 
-font-size: 17px;
+    font-size: 17px;
 }
 body>.headArea>.right>.userAreaBox>.outBtn{
 
-display: block;
+    display: block;
 
-float: left;
+    float: left;
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-padding: 6px 40px;
+    padding: 6px 40px;
 
-border: 1px solid #ccc;
+    border: 1px solid #ccc;
 
-color: #666666;
+    color: #666666;
 
-letter-spacing: 1px;
+    letter-spacing: 1px;
 
-margin: 14px 57px;
+    margin: 14px 57px;
 
 }
 body>.headArea>.right>.userAreaBox>.outBtn:hover{
@@ -388,37 +388,37 @@ body>.headArea>.right>.settingArea>.setting{
 /*左部菜单区域*/
 body>.leftArea{
 
-overflow: hidden;
+    overflow: hidden;
 
-position: absolute;
+    position: absolute;
 
-top: 0;
+    top: 0;
 
-left: 0;
+    left: 0;
 
-padding-top: 68px;
+    padding-top: 68px;
 
-background: -moz-linear-gradient(top, #355290 0%, #bdc3ca 100%);
+    background: -moz-linear-gradient(top, #355290 0%, #bdc3ca 100%);
 
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#355290), color-stop(100%,#bdc3ca));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#355290), color-stop(100%,#bdc3ca));
 
-background: -webkit-linear-gradient(top, #355290 0%,#bdc3ca 100%);
+    background: -webkit-linear-gradient(top, #355290 0%,#bdc3ca 100%);
 
-background: -o-linear-gradient(top, #355290 0%,#bdc3ca 100%);
+    background: -o-linear-gradient(top, #355290 0%,#bdc3ca 100%);
 
-background: -ms-linear-gradient(top, #355290 0%,#bdc3ca 100%);
+    background: -ms-linear-gradient(top, #355290 0%,#bdc3ca 100%);
 
-background: linear-gradient(to bottom, #355290 0%,#bdc3ca 100%);
+    background: linear-gradient(to bottom, #355290 0%,#bdc3ca 100%);
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-bottom: 0;
+    bottom: 0;
 
-width: 230px;
+    width: 230px;
 
-z-index: 1;
+    z-index: 1;
 
-padding-bottom: 12px;
+    padding-bottom: 12px;
 }
 body>.leftArea>div>div>*{
     width: 90%;
@@ -494,84 +494,84 @@ body>.leftArea>div>div>.searchArea>.search{
 /*菜单区域*/
 body>.leftArea>div>div>.rows{
 
-margin-top: 12px;
+    margin-top: 12px;
 
-padding: 9px 0;
+    padding: 9px 0;
 }
 body>.leftArea>div>div>.rows>.title{
 
-position: relative;
+    position: relative;
 
-overflow: hidden;
+    overflow: hidden;
 
-padding: 4px 10px;
+    padding: 4px 10px;
 
-margin: 9px 0 0 9px;
+    margin: 9px 0 0 9px;
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-background-color: #334866;
+    background-color: #334866;
 
-border-radius: 14px;
+    border-radius: 14px;
 
-color: #dce0e5;
+    color: #dce0e5;
 
-cursor: default;
+    cursor: default;
 }
 body>.leftArea>div>div>.rows>.column{
 
-position: relative;
+    position: relative;
 
-width: 90%;
+    width: 90%;
 
-margin: 12px auto 0 auto;
+    margin: 12px auto 0 auto;
 
-overflow: hidden;
+    overflow: hidden;
 }
 body>.leftArea>div>div>.rows> :nth-child(n+4){
 
-margin-top: 7px;
+    margin-top: 7px;
 }
 body>.leftArea>div>div>.rows>.column>.title{
 
-background: url(../images/mail.png) no-repeat 0;
+    background: url(../images/mail.png) no-repeat 0;
 
-padding-left: 28px;
+    padding-left: 28px;
 
-display: block;
+    display: block;
 
-margin-left: 7px;
+    margin-left: 7px;
 
-color: #dce0e5;
+    color: #dce0e5;
 
-background-size: 16px;
+    background-size: 16px;
 
-cursor: pointer;
+    cursor: pointer;
 }
 body>.leftArea>div>div>.rows>.column>.arow{
 
-margin: 2px 0px 0 49px;
+    margin: 2px 0px 0 49px;
 
-background-size: 100% 100%;
+    background-size: 100% 100%;
 
-width: 11px;
+    width: 11px;
 
-height: 3px;
+    height: 3px;
 
-background: url(../images/arow.png) no-repeat;
+    background: url(../images/arow.png) no-repeat;
 }
 body>.leftArea>div>div>.rows>.column>.contentArea{margin: 0px 0px 0 34px;background-size: 100% 100%;padding: 4px 17px 5px 17px;background-color: #364a6e;border-radius: 6px;}
 body>.leftArea>div>div>.rows>.column>.contentArea>.content{
 
-color: #dce0e5;
+    color: #dce0e5;
 
-cursor: pointer;
+    cursor: pointer;
 
-display: block;
+    display: block;
 
-padding: 0;
+    padding: 0;
 
-margin: 1px 0;
+    margin: 6px 0;
 }
 /*菜单区域*/
 
@@ -583,130 +583,140 @@ margin: 1px 0;
 /*右部区域*/
 body>.rightArea{
 
-position: absolute;
+    position: absolute;
 
-top: 0;
+    top: 0;
 
-bottom: 0;
+    bottom: 0;
 
-padding: 68px 0 0 230px;
+    padding: 68px 0 0 230px;
 
-width: 100%;
+    width: 100%;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
 }
 
 /*头部定位区域*/
 body>.rightArea>.head{
 
-height: 36px;
+    height: 36px;
 
-overflow: hidden;
+    overflow: hidden;
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-padding: 0 0 0 36px;
+    padding: 0 0 0 36px;
 
-margin: 0;
+    margin: 0;
 
-background: url(../images/targeting.jpg) no-repeat;
+    background: url(../images/targeting.jpg) no-repeat;
 
-background-size: 36px 36px;
+    background-size: 36px 36px;
 
-background-color: whitesmoke;
+    background-color: whitesmoke;
 
-z-index: 2;
+    z-index: 2;
 
-position: relative;
+    position: relative;
 }
 body>.rightArea>.head>.title{
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-overflow: hidden;
+    overflow: hidden;
 
-display: block;
+    display: block;
 
-height: 36px;
+    height: 36px;
 
-float: left;
+    float: left;
 
-line-height: 36px;
+    line-height: 36px;
 
-font-size: 13px;
+    font-size: 13px;
 
-color: #666666;
+    color: #666666;
 
-cursor: default;
+    cursor: default;
 }
 body>.rightArea>.head>.locationArea{
 
-float: left;
+    float: left;
 
-display: block;
+    display: block;
 
-overflow: hidden;
+    overflow: hidden;
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-margin: 8px 5px;
+    margin: 8px 5px;
 
-background-color: white;
+    background-color: white;
 }
 body>.rightArea>.head>.locationArea>.location{
 
-color: #666666;
+    color: #666666;
 
-font-size: 13px;
+    font-size: 13px;
 
-display: block;
+    display: block;
 
-float: left;
+    float: left;
 
-overflow: hidden;
+    overflow: hidden;
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-padding: 0 6px 0 10px;
+    padding: 0 6px 0 10px;
 
-background: url(../images/greytriangle.png) no-repeat;
+    background: url(../images/greytriangle.png) no-repeat;
 
-background-position: 0 50%;
+    background-position: 0 50%;
 
-margin-left: 7px;
+    margin-left: 7px;
 
-cursor: pointer;
+    cursor: pointer;
 }
 /*头部定位区域*/
 
 /*内容区域*/
 body>.rightArea>.content{
 
-position: absolute;
+    position: absolute;
 
-top: 0;
+    top: 0;
 
-left: 0;
+    left: 0;
 
-padding: 104px 0 0 264px;
+    padding: 104px 0 0 264px;
 
-bottom: 0;
+    bottom: 0;
 
-width: 100%;
+    width: 100%;
 
-background-color: whitesmoke;
+    background-color: whitesmoke;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
 }
-body>.rightArea>.content>iframe{
+body>.rightArea>.content>.contentShowArea{
+    position: absolute;
+    top: 102px;
+    right: 0;
+    left: 261px;
+    bottom: 6px;
+    box-sizing: border-box;
+    border: 0;
+    background: transparent;
+}
+body>.rightArea>.content>.contentShowArea >iframe{
 
-overflow: hidden;
+    width: 100%;
 
-display: block;
-
-width: 100%;
-
-height: 100%;
-
-box-sizing: border-box;
-
-border: 0;
+    height: 100%;
 }
 /*内容区域*/
 
